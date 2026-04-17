@@ -58,21 +58,27 @@ troco sacar(troco valortroco)
 int main ()
 {
     static troco troquinho;
+    printf("Saque de 500:\n");
     troquinho.valor = 500;
     sacar(troquinho);
 
+    printf("Saque de 200:\n");
     troquinho.valor = 200;
     sacar(troquinho);
 
+    printf("Saque de 1000:\n");
     troquinho.valor = 1000;
     sacar(troquinho);
 
+    printf("Saque de 1001:\n");
     troquinho.valor = 1001;
     sacar(troquinho);    
 
+    printf("Saque de -2:\n");
     troquinho.valor = -2;
     sacar(troquinho);  
 
+    printf("Saque de 0:\n");
     troquinho.valor = 0;
     sacar(troquinho);  
 
